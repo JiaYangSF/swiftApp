@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F4D962F1E2058D40068E16A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D962E1E2058D40068E16A /* AppDelegate.swift */; };
+		9F4D96311E2058D40068E16A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D96301E2058D40068E16A /* ViewController.swift */; };
+		9F4D96341E2058D40068E16A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4D96321E2058D40068E16A /* Main.storyboard */; };
+		9F4D96361E2058D40068E16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4D96351E2058D40068E16A /* Assets.xcassets */; };
+		9F4D96391E2058D40068E16A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4D96371E2058D40068E16A /* LaunchScreen.storyboard */; };
+		9F4D96441E2058D40068E16A /* Emoji_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D96431E2058D40068E16A /* Emoji_AppTests.swift */; };
+		9F4D964F1E2058D40068E16A /* Emoji_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D964E1E2058D40068E16A /* Emoji_AppUITests.swift */; };
+		9F4D965D1E20645B0068E16A /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D965C1E20645B0068E16A /* DefinitionViewController.swift */; };
+		9F4D965F1E2096E50068E16A /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D965E1E2096E50068E16A /* Emoji.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F4D96401E2058D40068E16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F4D96231E2058D40068E16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4D962A1E2058D40068E16A;
+			remoteInfo = "Emoji App";
+		};
+		9F4D964B1E2058D40068E16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F4D96231E2058D40068E16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F4D962A1E2058D40068E16A;
+			remoteInfo = "Emoji App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F4D962B1E2058D40068E16A /* Emoji App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emoji App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4D962E1E2058D40068E16A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F4D96301E2058D40068E16A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F4D96331E2058D40068E16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F4D96351E2058D40068E16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F4D96381E2058D40068E16A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F4D963A1E2058D40068E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4D963F1E2058D40068E16A /* Emoji AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4D96431E2058D40068E16A /* Emoji_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_AppTests.swift; sourceTree = "<group>"; };
+		9F4D96451E2058D40068E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4D964A1E2058D40068E16A /* Emoji AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Emoji AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4D964E1E2058D40068E16A /* Emoji_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji_AppUITests.swift; sourceTree = "<group>"; };
+		9F4D96501E2058D40068E16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4D965C1E20645B0068E16A /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DefinitionViewController.swift; path = ../DefinitionViewController.swift; sourceTree = "<group>"; };
+		9F4D965E1E2096E50068E16A /* Emoji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F4D96281E2058D40068E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4D963C1E2058D40068E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4D96471E2058D40068E16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F4D96221E2058D40068E16A = {
+			isa = PBXGroup;
+			children = (
+				9F4D962D1E2058D40068E16A /* Emoji App */,
+				9F4D96421E2058D40068E16A /* Emoji AppTests */,
+				9F4D964D1E2058D40068E16A /* Emoji AppUITests */,
+				9F4D962C1E2058D40068E16A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4D962C1E2058D40068E16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F4D962B1E2058D40068E16A /* Emoji App.app */,
+				9F4D963F1E2058D40068E16A /* Emoji AppTests.xctest */,
+				9F4D964A1E2058D40068E16A /* Emoji AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4D962D1E2058D40068E16A /* Emoji App */ = {
+			isa = PBXGroup;
+			children = (
+				9F4D965C1E20645B0068E16A /* DefinitionViewController.swift */,
+				9F4D962E1E2058D40068E16A /* AppDelegate.swift */,
+				9F4D96301E2058D40068E16A /* ViewController.swift */,
+				9F4D96321E2058D40068E16A /* Main.storyboard */,
+				9F4D965E1E2096E50068E16A /* Emoji.swift */,
+				9F4D96351E2058D40068E16A /* Assets.xcassets */,
+				9F4D96371E2058D40068E16A /* LaunchScreen.storyboard */,
+				9F4D963A1E2058D40068E16A /* Info.plist */,
+			);
+			path = "Emoji App";
+			sourceTree = "<group>";
+		};
+		9F4D96421E2058D40068E16A /* Emoji AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F4D96431E2058D40068E16A /* Emoji_AppTests.swift */,
+				9F4D96451E2058D40068E16A /* Info.plist */,
+			);
+			path = "Emoji AppTests";
+			sourceTree = "<group>";
+		};
+		9F4D964D1E2058D40068E16A /* Emoji AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F4D964E1E2058D40068E16A /* Emoji_AppUITests.swift */,
+				9F4D96501E2058D40068E16A /* Info.plist */,
+			);
+			path = "Emoji AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F4D962A1E2058D40068E16A /* Emoji App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4D96531E2058D40068E16A /* Build configuration list for PBXNativeTarget "Emoji App" */;
+			buildPhases = (
+				9F4D96271E2058D40068E16A /* Sources */,
+				9F4D96281E2058D40068E16A /* Frameworks */,
+				9F4D96291E2058D40068E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Emoji App";
+			productName = "Emoji App";
+			productReference = 9F4D962B1E2058D40068E16A /* Emoji App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F4D963E1E2058D40068E16A /* Emoji AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4D96561E2058D40068E16A /* Build configuration list for PBXNativeTarget "Emoji AppTests" */;
+			buildPhases = (
+				9F4D963B1E2058D40068E16A /* Sources */,
+				9F4D963C1E2058D40068E16A /* Frameworks */,
+				9F4D963D1E2058D40068E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F4D96411E2058D40068E16A /* PBXTargetDependency */,
+			);
+			name = "Emoji AppTests";
+			productName = "Emoji AppTests";
+			productReference = 9F4D963F1E2058D40068E16A /* Emoji AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F4D96491E2058D40068E16A /* Emoji AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4D96591E2058D40068E16A /* Build configuration list for PBXNativeTarget "Emoji AppUITests" */;
+			buildPhases = (
+				9F4D96461E2058D40068E16A /* Sources */,
+				9F4D96471E2058D40068E16A /* Frameworks */,
+				9F4D96481E2058D40068E16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F4D964C1E2058D40068E16A /* PBXTargetDependency */,
+			);
+			name = "Emoji AppUITests";
+			productName = "Emoji AppUITests";
+			productReference = 9F4D964A1E2058D40068E16A /* Emoji AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F4D96231E2058D40068E16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jia Yang";
+				TargetAttributes = {
+					9F4D962A1E2058D40068E16A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					9F4D963E1E2058D40068E16A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F4D962A1E2058D40068E16A;
+					};
+					9F4D96491E2058D40068E16A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F4D962A1E2058D40068E16A;
+					};
+				};
+			};
+			buildConfigurationList = 9F4D96261E2058D40068E16A /* Build configuration list for PBXProject "Emoji App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F4D96221E2058D40068E16A;
+			productRefGroup = 9F4D962C1E2058D40068E16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F4D962A1E2058D40068E16A /* Emoji App */,
+				9F4D963E1E2058D40068E16A /* Emoji AppTests */,
+				9F4D96491E2058D40068E16A /* Emoji AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F4D96291E2058D40068E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4D96391E2058D40068E16A /* LaunchScreen.storyboard in Resources */,
+				9F4D96361E2058D40068E16A /* Assets.xcassets in Resources */,
+				9F4D96341E2058D40068E16A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4D963D1E2058D40068E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4D96481E2058D40068E16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F4D96271E2058D40068E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4D96311E2058D40068E16A /* ViewController.swift in Sources */,
+				9F4D965D1E20645B0068E16A /* DefinitionViewController.swift in Sources */,
+				9F4D965F1E2096E50068E16A /* Emoji.swift in Sources */,
+				9F4D962F1E2058D40068E16A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4D963B1E2058D40068E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4D96441E2058D40068E16A /* Emoji_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F4D96461E2058D40068E16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4D964F1E2058D40068E16A /* Emoji_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F4D96411E2058D40068E16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F4D962A1E2058D40068E16A /* Emoji App */;
+			targetProxy = 9F4D96401E2058D40068E16A /* PBXContainerItemProxy */;
+		};
+		9F4D964C1E2058D40068E16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F4D962A1E2058D40068E16A /* Emoji App */;
+			targetProxy = 9F4D964B1E2058D40068E16A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F4D96321E2058D40068E16A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4D96331E2058D40068E16A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F4D96371E2058D40068E16A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4D96381E2058D40068E16A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F4D96511E2058D40068E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F4D96521E2058D40068E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F4D96541E2058D40068E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Emoji App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smilewayx.Emoji-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F4D96551E2058D40068E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Emoji App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smilewayx.Emoji-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F4D96571E2058D40068E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Emoji AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smilewayx.Emoji-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoji App.app/Emoji App";
+			};
+			name = Debug;
+		};
+		9F4D96581E2058D40068E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Emoji AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smilewayx.Emoji-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emoji App.app/Emoji App";
+			};
+			name = Release;
+		};
+		9F4D965A1E2058D40068E16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Emoji AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smilewayx.Emoji-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Emoji App";
+			};
+			name = Debug;
+		};
+		9F4D965B1E2058D40068E16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Emoji AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "smilewayx.Emoji-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Emoji App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F4D96261E2058D40068E16A /* Build configuration list for PBXProject "Emoji App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4D96511E2058D40068E16A /* Debug */,
+				9F4D96521E2058D40068E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4D96531E2058D40068E16A /* Build configuration list for PBXNativeTarget "Emoji App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4D96541E2058D40068E16A /* Debug */,
+				9F4D96551E2058D40068E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F4D96561E2058D40068E16A /* Build configuration list for PBXNativeTarget "Emoji AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4D96571E2058D40068E16A /* Debug */,
+				9F4D96581E2058D40068E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F4D96591E2058D40068E16A /* Build configuration list for PBXNativeTarget "Emoji AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4D965A1E2058D40068E16A /* Debug */,
+				9F4D965B1E2058D40068E16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F4D96231E2058D40068E16A /* Project object */;
+}
